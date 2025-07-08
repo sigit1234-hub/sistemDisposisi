@@ -39,6 +39,20 @@
                                 </li>
                             </ul>
                         </li>
+                        <li class="sidebar-item  has-sub">
+                            <a href="<?= base_url('vendor/dist/')?>#" class='sidebar-link'>
+                                <i class="bi bi-file-check-fill"></i>
+                                <span>Approval</span>
+                            </a>
+                            <ul class="submenu ">
+                                <li class="submenu-item ">
+                                    <a href="<?= base_url('vendor/dist/')?>component-alert.html">Approval Surat</a>
+                                </li>
+                                <li class="submenu-item ">
+                                    <a href="<?= base_url('vendor/dist/')?>component-badge.html">Dalam Proses</a>
+                                </li>
+                            </ul>
+                        </li>
 
                         <li class="sidebar-item  has-sub">
                             <a href="<?= base_url('vendor/dist/')?>#" class='sidebar-link'>
@@ -71,6 +85,12 @@
                                     <a href="<?= base_url('vendor/dist/')?>layout-vertical-navbar.html">Ditolak</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="<?= base_url('vendor/dist/')?>" class='sidebar-link'>
+                                <i class="bi bi-person-fill"></i>
+                                <span>Profile</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
